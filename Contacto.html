@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Contact info
+        </title>
+        <link rel="Stylesheet" href="estilos.css"/>
+    </head>
+
+        <body>
+            <h1>
+                Formulario
+            </h1>
+            <div>
+                <form >
+                    <h4>
+                        Datos
+                    </h4>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" class="NameEmail"><br><br>
+                    <label for="mail">Email:</label><br>
+                    <input type="email" id="mail" name="mail" class="NameEmail"><br><br>
+                  </form>
+            </div>
+              
+              <div class="razones">
+                <form>
+                    <h4>
+                        Razon
+                    </h4>
+                    <input type="radio" id="queja" name="Razon" value="queja">
+                    <label for="queja">Queja</label><br>
+                    <input type="radio" id="cita" name="Razon" value="cita">
+                    <label for="cita">Agendar una cita</label><br>
+                    <input type="radio" id="aclaraciones" name="Razon" value="aclaraciones">
+                    <label for="aclaraciones">Aclaraciones</label><br>
+                </form>
+              </div>
+
+            <hr/>
+
+            <div>
+                <form>
+                    <h4>
+                        Detalles
+                    </h4>
+                    <label for="Texto"  class="textogrande" >Escribe aqui</label><br>
+                    <textarea class="BigText"></textarea>
+                </form>
+            </div>
+
+            <hr/>
+
+            <div>
+                <h4>
+                    Como nos conociste?
+                </h4>
+                <label for="medio">medio</label><br>
+                    <select name="medio" id="idmedio" class="queMedio">
+                        <option value="opcion1"></option>
+                        <option value="opcion2">Redes sociales</option>
+                        <option value="opcion3">Recomendacion</option>
+                        <option value="opcion4">Internet</option>
+                    </select>
+            </div>
+
+            <br/><br/>
+
+            <div >
+                <form>
+                    <input type="submit" value="Send" class="SendReset">
+                    <input type="reset" value="Reset" class="SendReset">
+                </form>
+            </div>
+
+
+
+        </body>
+
+</html>
